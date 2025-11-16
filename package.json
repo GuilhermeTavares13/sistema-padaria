@@ -6,5 +6,25 @@
     "mysql2": "^3.15.3",
     "nodemon": "^3.1.11",
     "sequelize": "^6.37.7"
-  }
+  },
+  "name": "sistema-padaria",
+  "version": "1.0.0",
+  "description": "Description",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuilhermeTavares13/sistema-padaria.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuilhermeTavares13/sistema-padaria/issues"
+  },
+  "homepage": "https://github.com/GuilhermeTavares13/sistema-padaria#readme"
 }
