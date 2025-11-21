@@ -22,3 +22,9 @@ exports.getCliente = (req, res, next) => {
     });
 }
 
+exports.getProduto = (req, res, next) => {
+    res.render('padaria/produto',{
+        path: '/produto'
+    });
+}
+

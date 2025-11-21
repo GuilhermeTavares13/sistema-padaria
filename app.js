@@ -9,10 +9,11 @@ app.set('views','views');
 
 const padariaRoutes = require('./routes/padaria');
 
+app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(padariaRoutes);
 
-app.listen(3000);
+app.listen(4000);
 
