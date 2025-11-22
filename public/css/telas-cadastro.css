@@ -1,0 +1,24 @@
+#tela-cadastro-cliente {
+    position: absolute;
+    background-color: #e0e1e3;
+    font-size: 1.6em;
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    display: grid;
+    place-items: center;
+    font-family: "Poppins", sans-serif;
+    border-radius: 0.3em;
+    cursor: move;
+}
+
+#inner-tela-cadastro-cliente {
+    background-color: #ffffff;
+    width: 98%;
+    height: 97%;
+    border-radius: 0.3em;
+    cursor: default;
+}
