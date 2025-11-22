@@ -1,10 +1,9 @@
 #tela-cadastro-cliente {
     position: absolute;
-    background-color: #e0e1e3;
+    background-color: #525353;
     font-size: 1.6em;
     width: 1000px;
     height: 600px;
-    position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
