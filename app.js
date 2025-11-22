@@ -15,5 +15,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(padariaRoutes);
 
-app.listen(4000);
+app.listen(3000);
 
