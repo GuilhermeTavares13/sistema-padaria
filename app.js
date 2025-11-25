@@ -9,7 +9,7 @@ app.set('views','views');
 
 const menuRoutes = require('./routes/menu');
 const cadastroClienteRoutes = require('./routes/cadastroCliente');
-const signRoutes = require('./routes/signInSignUp')
+const authRoutes = require('./routes/auth')
 
 
 app.use(express.static(__dirname + '/public'));
@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(menuRoutes);
 app.use(cadastroClienteRoutes);
-app.use(signRoutes);
+app.use(authRoutes);
 
 
 app.listen(3000);
