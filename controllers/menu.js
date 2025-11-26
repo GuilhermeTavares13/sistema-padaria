@@ -1,5 +1,5 @@
 exports.getIndex = (req, res, next) => {
-    console.log(req.get('Cookie'));
+    console.log(req.session.isLoggedIn);
     res.render('index',{
         path: '/'
     });

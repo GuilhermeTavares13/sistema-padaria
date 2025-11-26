@@ -1,11 +1,20 @@
 exports.getLogin = (req, res, next) => {
-        res.render('auth/login', {
+    if (req.session.isLoggedIn) {
+        console.log('teste');
+    }
+
+    res.render('auth/login', {
         path: '/login'
     });
 };
 
+exports.getLogout = (req, res, next) => {
+    req.session.isLoggedIn = false;
+    res.redirect('/login');
+}
+
 exports.postLogin = (req, res, next) => {
-    res.setHeader('Set-Cookie', 'loggedIn=true');
+    req.session.isLoggedIn = true;
     res.redirect('/');
 };
 
