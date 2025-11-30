@@ -1,3 +1,3 @@
-exports.postCliente = (req, res, next) => {
+// exports.postCliente = (req, res, next) => {
 
-}
+// }

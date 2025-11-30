@@ -12,9 +12,9 @@ app.set('views','views');
 
 const User = require('./models/user');
 
-const menuRoutes = require('./routes/menu');
-const cadastroClienteRoutes = require('./routes/cadastroCliente');
-const authRoutes = require('./routes/auth');
+// const menuRoutes = require('./routes/menu');
+// const cadastroClienteRoutes = require('./routes/cadastroCliente');
+// const authRoutes = require('./routes/auth');
 
 
 
@@ -25,9 +25,9 @@ app.use(
     session({ secret: 'my secret', resave: false, saveUninitialized: false })
 );
 
-app.use(menuRoutes);
-app.use(cadastroClienteRoutes);
-app.use(authRoutes);
+// app.use(menuRoutes);
+// app.use(cadastroClienteRoutes);
+// app.use(authRoutes);
 
 
 mongoose

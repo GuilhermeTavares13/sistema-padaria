@@ -1,10 +1,10 @@
-.tela-cadastro {
+.login {
     position: absolute;
     /* background-color: hsl(255, 44%, 7%, 0.5); */
     background-color: hsla(0, 0%, 100%, 0.8);
     color:  hsl(255, 44%, 7%, 0.7);
-    width: 1000px;
-    height: 650px;
+    width: 300px;
+    height: 300px;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
@@ -15,32 +15,8 @@
     z-index: -1;
 }
 
-.tela-cadastro h2 {
+.login h2 {
     font-size: 25px;
     margin-bottom: 40px;
     text-align: center;
 }
-
-.tela-cadastro form {
-    font-size: 16px;
-}
-
-.form-control {
-    background-color: hsla(0, 0%, 100%, 0.7);
-    color: black;
-    border: none;
-    height: 30px;
-    border-radius: 0.5rem;
-}
-
-.tela-cadastro textarea {
-   height: auto; 
-}
-
-.form-control::placeholder {
-    color: rgb(0, 0, 0);
-    opacity: 0.5;
-}
-
-
-
